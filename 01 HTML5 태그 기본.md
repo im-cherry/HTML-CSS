@@ -280,7 +280,31 @@
 ```
 
 ```html
-<body></body>
+<body>
+  <header>
+    <h1>HTML5 Header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Menu1</a></li>
+      <li><a href="#">Menu2</a></li>
+      <li><a href="#">Menu3</a></li>
+    </ul>
+  </nav>
+  <section>
+    <article>
+      <h2>1. Article</h2>
+      <p>This is a article 1.</p>
+    </article>
+    <article>
+      <h2>2. Article</h2>
+      <p>This is a article 2.</p>
+    </article>
+  </section>
+  <footer>
+    <address>사랑시 고백구 행복동</address>
+  </footer>
+</body>
 ```
 
 | 태그 이름 | 설명                                |
@@ -289,7 +313,7 @@
 |   span    | inline 형식으로 공간을 분할합니다.  |
 |  header   | 헤더를 의미                         |
 |    nav    | 내비게이션을 의미                   |
-|   aside   | 사이드에 위치하는 공간을 의미       |
 |  section  | 여러 중심 내용을 감싸는 공간을 의미 |
 |  article  | 글자가 많이 들어가는 부분을 의미    |
+|   aside   | 사이드에 위치하는 공간을 의미       |
 |  footer   | 푸터를 의미                         |
